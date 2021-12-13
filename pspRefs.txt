@@ -1,0 +1,8 @@
+Succesfull Transactions:
+863639363372342K - Mastercard
+861639363955671A - SEPA
+883639362771412H - Visa
+883639362445332D - AMEX
+
+Refused:
+861639361959704K - SEPA (Doesn't Accept Currency)

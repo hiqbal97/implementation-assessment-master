@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://checkoutshopper-live.adyen.com/checkoutshopper/sdk/4.7.2/adyen.css"
+    integrity="sha384-dkJjySvUD62j8VuK62Z0VF1uIsoa+APxWLDHpTjBRwQ95VxNl7oaUvCL+5WXG8lh" crossorigin="anonymous">
+</head>
+
+<body>
+  <main>
+    <div id="header">
+      <img src="adyen-logo.png" alt="logo" />
+    </div>
+    <div id="container">
+      <div id="cart-container" class="el-container">
+        <h2>Your Cart</h2>
+        <div id="product-image">
+          <img src="jacket.jpg" alt="jacket" />
+        </div>
+        <div id="totals">
+          <ul>
+            <h3>Items:</h3>
+            <li>
+              <div class="item">
+                Jacket
+              </div>
+              <div class="price">
+                $100
+              </div>
+            </li>
+          </ul>
+          <h3 id="total-amount">Total: $100</h3>
+        </div>
+      </div>
+      <div id="dropin-container" class="el-container"></div>
+    </div>
+  </main>
+  <script src="https://checkoutshopper-live.adyen.com/checkoutshopper/sdk/4.7.2/adyen.js"
+    integrity="sha384-hhvkW03dAUXGdLB8iXXHW311qerCuAJvbU4LxZZzMP5knSYEFWAenVr0wa5ulKwO"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
