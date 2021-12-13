@@ -1,7 +1,7 @@
 const config = {
   clientKey: 'test_PV23NG3VVBHFRI4GRISZXEWQPU3UUXNS',
   merchantAccount: 'AdyenRecruitment_NY2',
-  countryCode: "NL",
+  countryCode: "US",
   shopperLocale: "en_US",
   amount: { currency: "USD", value: 10000 }
 };
